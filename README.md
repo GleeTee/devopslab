@@ -7,3 +7,5 @@ me lab even harder with this commit
 never ending test
 
 one branch is good but two is better
+
+here is another line of text on the master branch
