@@ -41,14 +41,14 @@ pipeline {
             sh 'npm start'
           }
         }
-        stage('Deploy app to production') {
-          when {
-            branch 'master'
-            agent any
-            steps {
-              sh 'echo hello'
-            }
-          }
+      }
+    }
+  stage('Deploy app to production') {
+    when {
+      branch 'master'
+        agent any
+        steps {
+          sh 'echo hello'
         }
       }
     }
